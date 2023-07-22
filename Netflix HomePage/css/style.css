@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: 1350px 650px;
+    background-color: black;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav .img img {
+    width: 19%;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+nav .btn {
+    display: flex;
+    margin-top: 16px;
+}
+
+.btn .sign{
+
+    width: 90px;
+    height: 35px;
+    background-color: rgb(224, 16, 16);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    margin-right: 20px;
+    
+}
+.btn .eng{
+    margin-inline: 22px ;
+    width: 110px;
+    height:35px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 55px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.main p{
+    font-size: 25px;
+}
+
+.main h3{
+    font-size: 44px;
+}
+
+.input input{
+    width: 400px;
+    height: 55px;
+    border: none;
+    font-size:  18px;
+    background-color: transparent;
+    border: 1px solid  rgb(218, 212, 212);
+    border-radius: 3px;
+    
+}
+
+.input button{
+    width: 200px;
+    height: 58px;
+    border: none;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(224, 11, 11);
+    border-radius: 3px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 189px;
+    padding: 66px;
+    border-top: 5px solid grey;
+    
+}
+
+.first h1{
+    font-size:55px;
+}
+
+.first p{
+    font-size: 27px;
+}
+
+.first img{
+    width: 44%;
+    
+}
+
+.buttons h1{
+    
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+    border-top: 5px solid grey;
+    padding: 40px;
+   
+}
+
+.buttons button{
+    border: 4px solid black;
+    width: 900px;
+    height: 75px;
+    background-color: rgb(43, 41, 41);
+    color: white ;
+    font-size: 26px;
+    margin-left : 16%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.footer{
+    border-top: 5px solid grey;
+    
+}
+
+.footer-2{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    padding: 32px;
+    
+}
+
+.footer-1 p{
+    color: rgb(158, 155, 155);
+    margin-top: 50px;
+    margin-bottom: -1px;
+    margin-left: 252px;
+}
+
+.footer-2 a{
+    color: rgb(158, 155, 155) ;
+}
+
+.footer-3{
+    margin-left: 252px;
+}
+
+
+.footer select{
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    border-radius: 3px;
+    border: 0.5px solid  grey;
+}
+
+.footer h5{
+    color: grey ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    
+
+}
+
